@@ -6,3 +6,30 @@ body {
   scroll-behavior: smooth;
   font-size: 14px;
 }
+
+.text-green {
+  color: #45894e !important;
+}
+
+.text-content span {
+  font-size: 16px;
+}
+
+.detail-social {
+  border-radius: 50%;
+  border: 2px solid #45894e;
+}
+
+.detail-social a {
+  font-size: 12px;
+  padding: 8px;
+}
+
+.text-phone {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.header-logo .logo img {
+  height: 100px;
+}
