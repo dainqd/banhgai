@@ -1,10 +1,13 @@
 body {
   line-height: 1.6;
   font-weight: 400;
-  color: #484848;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   font-size: 14px;
+}
+
+header{
+  background: black;
 }
 
 .text-green {
@@ -18,18 +21,124 @@ body {
 .detail-social {
   border-radius: 50%;
   border: 2px solid #45894e;
-}
-
-.detail-social a {
-  font-size: 12px;
-  padding: 8px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  a {
+    font-size: 20px;
+  }
 }
 
 .text-phone {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .header-logo .logo img {
   height: 100px;
+}
+
+.follow-item{
+  color: white;
+  font-size: 16px;
+}
+
+
+.body{
+  background: black;
+  padding-top: 30px;
+  .products{
+
+    .item{
+      text-align: center;
+      margin-top: 20px;
+      img{
+        width: 85%;
+        height: 80%;
+      }
+      .name{
+        font-size: 20px;
+        color: white;
+        font-weight: 500;
+        margin-top: 10px;
+      }
+      .price{
+        font-size: 18px;
+        color: white;
+        font-weight: 400;
+
+      }
+    }
+  }
+  .address{
+    .list-address{
+      margin-top: 20px;
+      .item-address{
+        margin-top: 20px;
+        span{
+          color: #45894e;
+          margin-right: 10px;
+          i{
+            margin-right: 5px;
+          }
+        }
+        a{
+          font-size: 15px;
+          color: white;
+          text-decoration: none;
+          &:hover{
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  .title{
+    color: #45894e;
+    font-size: 23px;
+    font-weight: 700;
+    border-bottom: 2px solid #45894e;
+  }
+}
+
+.body-address{
+  margin-top: 40px;
+  background: white;
+  .img-address{
+    img{
+      width: 100%;
+      height: auto;
+    }
+    .address-detail{
+      font-size: 17px;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+  }
+  .address-map{
+    width: 100%;
+    height: auto;
+    .iframe{
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.phonenumber{
+  position: fixed;
+  bottom: 30px;
+  left: 20px;
+  a{
+    i{
+      margin-right: 5px;
+    }
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    background: #00a308;
+    padding: 10px 20px;
+    border-radius: 20px;
+  }
 }

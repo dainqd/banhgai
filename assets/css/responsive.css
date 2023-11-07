@@ -1,0 +1,23 @@
+@media screen and (max-width: 500px) {
+  .main-header .follow-me {
+    order: 2;
+  }
+  .main-header .main-header-detail {
+    order: 1;
+    margin-bottom: 20px;
+  }
+  .main-header .contact {
+    order: 3;
+  }
+  .detail-social {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .detail-social a {
+    font-size: 15px;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */
