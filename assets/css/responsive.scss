@@ -23,4 +23,70 @@
       font-size: 15px;
     }
   }
+
+  .body{
+    .products{
+      .item{
+        margin-top: 20px;
+        margin-bottom: 15px;
+        img{
+          width: 90%;
+        }
+        .name{
+          font-size: 15px;
+          margin-top: 5px;
+        }
+        .price{
+          font-size: 14px;
+        }
+      }
+    }
+    .address{
+      margin-bottom: 90px;
+      .list-address{
+        margin-top: 20px;
+        .item-address{
+          margin-top: 20px;
+          span{
+            color: #45894e;
+            margin-right: 10px;
+            i{
+              margin-right: 5px;
+            }
+          }
+          a{
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .title{
+      font-size: 21px;
+      border-bottom: 2px solid #45894e;
+    }
+  }
+
+  .body-address{
+    margin-top: 30px;
+    .img-address{
+      img{
+        margin-bottom: 15px;
+      }
+      .address-detail{
+        font-size: 17px;
+        font-weight: 600;
+        margin-bottom: 20px;
+      }
+    }
+    .address-map{
+      margin-bottom: 70px;
+    }
+  }
+
+  .phonenumber{
+    a{
+      font-size: 13px;
+      padding: 5px 10px;
+    }
+  }
 }

@@ -18,6 +18,61 @@
   .detail-social a {
     font-size: 15px;
   }
+  .body .products .item {
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  .body .products .item img {
+    width: 90%;
+  }
+  .body .products .item .name {
+    font-size: 15px;
+    margin-top: 5px;
+  }
+  .body .products .item .price {
+    font-size: 14px;
+  }
+  .body .address {
+    margin-bottom: 90px;
+  }
+  .body .address .list-address {
+    margin-top: 20px;
+  }
+  .body .address .list-address .item-address {
+    margin-top: 20px;
+  }
+  .body .address .list-address .item-address span {
+    color: #45894e;
+    margin-right: 10px;
+  }
+  .body .address .list-address .item-address span i {
+    margin-right: 5px;
+  }
+  .body .address .list-address .item-address a {
+    font-size: 14px;
+  }
+  .body .title {
+    font-size: 21px;
+    border-bottom: 2px solid #45894e;
+  }
+  .body-address {
+    margin-top: 30px;
+  }
+  .body-address .img-address img {
+    margin-bottom: 15px;
+  }
+  .body-address .img-address .address-detail {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .body-address .address-map {
+    margin-bottom: 70px;
+  }
+  .phonenumber a {
+    font-size: 13px;
+    padding: 5px 10px;
+  }
 }
 
 /*# sourceMappingURL=responsive.css.map */
