@@ -36,7 +36,7 @@ header {
 }
 
 .header-logo .logo img {
-  height: 100px;
+  height: 120px;
 }
 
 .follow-item {
@@ -45,6 +45,7 @@ header {
 }
 
 .body {
+  min-height: 100vh;
   background: black;
   padding-top: 30px;
 }
