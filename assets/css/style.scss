@@ -76,6 +76,7 @@ header{
     .list-address{
       margin-top: 20px;
       .item-address{
+        margin-top: 20px;
         span{
           color: #45894e;
           margin-right: 10px;
@@ -83,12 +84,9 @@ header{
             margin-right: 5px;
           }
           .map{
-            display: -webkit-box;
-            height: 45px;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            text-overflow: ellipsis;
-            overflow: hidden;
+            font-size: 14px;
+            color: #45894e;
+            margin-right: 10px;
           }
         }
         a{

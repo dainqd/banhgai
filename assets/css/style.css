@@ -71,6 +71,9 @@ header {
 .body .address .list-address {
   margin-top: 20px;
 }
+.body .address .list-address .item-address {
+  margin-top: 20px;
+}
 .body .address .list-address .item-address span {
   color: #45894e;
   margin-right: 10px;
@@ -79,12 +82,9 @@ header {
   margin-right: 5px;
 }
 .body .address .list-address .item-address span .map {
-  display: -webkit-box;
-  height: 45px;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  text-overflow: ellipsis;
-  overflow: hidden;
+  font-size: 14px;
+  color: #45894e;
+  margin-right: 10px;
 }
 .body .address .list-address .item-address a {
   font-size: 15px;
